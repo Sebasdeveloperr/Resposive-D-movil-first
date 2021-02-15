@@ -365,7 +365,7 @@ main{
     color: var(--Warm-Black);
 }
 
-/* sección de beneficios */
+/* sección de beneficios 1 */
 
 .main-product-detail{
     position: relative;
@@ -425,9 +425,400 @@ main{
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.16);
 }
 
-..product-detail--card .clock{
+.product-detail--card .clock{
     display: inline-block;
     width: 20px;
     height: 20px;
+    margin-bottom: 10px;
+    background-image: url('./assets/icons/clock.svg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
 
+.product--card-title{
+    margin-bottom: 15px;
+    font-size: 1.8rem;
+    font-weight: bold;
+    line-height: 1.8rem;
+    color: var(--Just-White);
+}
+
+.product--card-body{
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    color: #808080;
+}
+
+
+/* seccion de beneficios 2  */
+
+
+.product-detail--card__escondidas{
+    width: 90%;
+    min-width: 288px;
+    max-width: 400px;
+    height: 150px;
+    margin: 15px auto;
+    padding: 15px;
+    background-color: var(--Warm-Black-1);
+    border-radius: 5px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.16);
+}
+
+.product-detail--card__escondidas .eye{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-bottom: 10px;
+    background-image: url('./assets/icons/eye.svg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.product--card-title{
+    margin-bottom: 15px;
+    font-size: 1.8rem;
+    font-weight: bold;
+    line-height: 1.8rem;
+    color: var(--Just-White);
+}
+
+.product--card-body{
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    color: #808080;
+}
+
+
+
+/* secciond de beneficios 2 */
+
+.product-detail--card__compara{
+    width: 90%;
+    min-width: 288px;
+    max-width: 400px;
+    height: 150px;
+    margin: 15px auto;
+    padding: 15px;
+    background-color: var(--Warm-Black-1);
+    border-radius: 5px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.16);
+}
+
+.product-detail--card__compara .sig-peso{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-bottom: 10px;
+    background-image: url('./assets/icons/dollar-sign.svg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.product--card-title{
+    margin-bottom: 15px;
+    font-size: 1.8rem;
+    font-weight: bold;
+    line-height: 1.8rem;
+    color: var(--Just-White);
+}
+
+.product--card-body{
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    color: #808080;
+}
+
+
+/* seccion de beneficios 3 */
+
+.product-detail--card__confiable{
+    width: 90%;
+    min-width: 288px;
+    max-width: 400px;
+    height: 150px;
+    margin: 15px auto;
+    padding: 15px;
+    background-color: var(--Warm-Black-1);
+    border-radius: 5px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.16);
+}
+
+.product-detail--card__confiable .check{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-bottom: 10px;
+    background-image: url('./assets/icons/check-circle.svg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.product--card-title{
+    margin-bottom: 15px;
+    font-size: 1.8rem;
+    font-weight: bold;
+    line-height: 1.8rem;
+    color: var(--Just-White);
+}
+
+.product--card-body{
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    color: #808080;
+}
+
+
+
+.bitcoint-img-container{
+    width: 100%;
+    min-width: 320px;
+    height: 50vh;
+    background-image: url('./assets/img/bitcoinbaby2x.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+
+.bitcoint-img-container h2{
+    padding-top: 60px;
+    font-size: 2.4rem;
+    font-weight: bold;
+    line-height: 2.6rem;
+    color: var(--Just-White);
+}
+
+/* sección de planes */
+
+.plans-container--slider{
+    display: flex;
+    height: 316px;
+    overflow: scroll;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x proximity;
+}
+
+.main-plans-container{
+    width: 100%;
+    min-width: 320px;
+    padding-bottom: 70px;
+    text-align: center;
+}
+
+.plans--title{
+    width: 90%;
+    min-width: 288px;
+    height: auto;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+.plans--title h2{
+    padding-top: 50px;
+    font-size: 2.4rem;
+    font-weight: bold;
+    line-height: 2.6rem;
+    color: var(--Warm-Black);
+}
+
+.plans--title p{
+    padding-top: 30px;
+    font-size: 1.45rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    color: #757575;
+}
+
+/* article 1 */
+
+.plans-container--card{
+    position: relative;
+    scroll-snap-align: center;
+    width: 70%;
+    min-width: 190px;
+    max-width: 300px;
+    height: 250px;
+    margin: 50px 10px 0;
+    padding: 0 15px;
+    background-color: var(--Just-White);
+    border-radius: 15px;
+    box-shadow: 0px 4px 8px rgba(89, 73, 30, 0.16);
+}
+
+
+.recommend{
+    position: absolute;
+    width: 110px;
+    height: 31px;
+    left:calc(50% - 55px);
+    top: -15px;
+    font-size: 1.2rem;
+    padding: 6px;
+    background-color: var(--Bitcoin-Orange);
+    border-radius: 5px;
+    color: var(--Just-White);
+}
+
+.plan-card--title{
+    padding-top: 30px;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    color: black;
+    margin-bottom: 15px;
+}
+
+
+.plan-card--price{
+    padding: 5px 0;
+    font-size: 5.2rem;
+    font-weight: bold;
+    line-height: 5.3rem;
+    color: black;
+}
+
+.plan-card--price span{
+    bottom: 7px;
+    display: inline;
+    position: relative;
+    font-size: 1.2rem;
+    font-weight: 300;
+    vertical-align: text-top;
+}
+
+.plan-card--saving{
+    font-size: 1.2rem;
+    color: #757575;
+}
+
+.plan-card--cta{
+    width: 150px;
+    height: 48px;
+    margin-top: 20px;
+    background-color: #faf8f7;
+    border: 2px solid var(--Bitcoin-Orange);
+    border-radius: 4px;
+    font-size: 1.4rem;
+    font-weight: bold;
+    font-family: 'DM Sans', sans-serif;
+    line-height: 1.8rem;
+    color: var(--Warm-Black);
+}
+
+
+.plan-card--cta span{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-image: url('./assets/icons/orange-right-arrow.svg');
+    vertical-align: text-bottom;
+}
+
+/* article 2 */
+
+.plans-container--card__basic{
+    position: relative;
+    scroll-snap-align: center;
+    width: 70%;
+    min-width: 190px;
+    max-width: 300px;
+    height: 250px;
+    margin: 50px 10px 0;
+    padding: 0 15px;
+    background-color: var(--Just-White);
+    border-radius: 15px;
+    box-shadow: 0px 4px 8px rgba(89, 73, 30, 0.16);
+}
+
+
+.basic{
+    position: absolute;
+    width: 110px;
+    height: 31px;
+    left:calc(50% - 55px);
+    top: -15px;
+    font-size: 1.2rem;
+    padding: 6px;
+    background-color: var(--Secondary-Blue);
+    border-radius: 5px;
+    color: var(--Just-White);
+}
+
+
+
+
+/* article 3 */
+
+.plans-container--card__expert{
+    position: relative;
+    scroll-snap-align: center;
+    width: 70%;
+    min-width: 190px;
+    max-width: 300px;
+    height: 250px;
+    margin: 50px 10px 0;
+    padding: 0 15px;
+    background-color: var(--Just-White);
+    border-radius: 15px;
+    box-shadow: 0px 4px 8px rgba(89, 73, 30, 0.16);
+}
+
+
+.expert{
+    position: absolute;
+    width: 110px;
+    height: 31px;
+    left:calc(50% - 55px);
+    top: -15px;
+    font-size: 1.2rem;
+    padding: 6px;
+    background-color: var(--Warm-Black);
+    border-radius: 5px;
+    color: var(--Just-White);
+}
+
+
+
+/* seccion del footer */
+
+
+footer{
+    display: flex;
+    width: 100%;
+    height: 150px;
+    background-color: var(--Bitcoin-Orange);
+}
+
+footer section{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer .izq ul{
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    list-style: none;
+}
+
+.izq li{
+    margin: 10px 0;
+}
+
+
+.izq a {
+    text-decoration: none;
+    color: var(--Just-White);
 }
