@@ -161,10 +161,19 @@ main{
     color: #757575;
 }
 
+.main-tables-master{
+    display: flex;
+    height: 380px;
+    overflow: scroll;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x proximity;
+}
+
 /* tabla N1*/
 
 .main-table-container{
     margin-bottom: 30px;
+    scroll-snap-align: center;
 }
 
 
@@ -174,7 +183,7 @@ main{
     max-width: 500px;
     margin-bottom: 50px;
     height: 360px;
-    margin: 0 auto;
+    margin: 0 43px;
     font-family: "Inter", sans-serif;
 
 }
@@ -281,12 +290,17 @@ main{
 
 /* tabla N2*/
 
+.main-table-contain-comision{
+    scroll-snap-align: center;
+}
+
+
 .main-comision-table{
     width: 70%;
     min-width: 235px;
     max-width: 500px;
     height: 360px;
-    margin: 0 auto;
+    margin-right: 42px;
     font-family: "Inter", sans-serif;
 }
 
